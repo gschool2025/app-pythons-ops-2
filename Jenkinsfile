@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git url: 'TWOJ_ADRES_REPO', branch: 'main'
+                git url: 'https://github.com/gschool2025/app-pythons-ops-2.git', branch: 'main'
             }
         }
 
